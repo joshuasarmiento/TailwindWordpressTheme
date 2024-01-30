@@ -88,11 +88,10 @@ function tailwindwordpresstheme_widgets_init() {
 add_action( 'widgets_init', 'tailwindwordpresstheme_widgets_init' );
 
 function tailwindwordpresstheme_scripts() {
-	// wp_enqueue_style( 'tailwindwordpresstheme-style', get_stylesheet_uri(), array(), _S_VERSION );
-
-	wp_enqueue_style( 'tailwindwordpresstheme-distOutput', get_template_directory_uri() . '/dist/output.cs', array(), _S_VERSION );
+	wp_enqueue_style( 'tailwindwordpresstheme-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'tailwindwordpresstheme-style', 'rtl', 'replace' );
 
+	wp_enqueue_style( 'tailwindwordpresstheme-distOutput', get_template_directory_uri() . '/dist/output.css', array(), _S_VERSION );
 	wp_enqueue_script( 'tailwindwordpresstheme-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {

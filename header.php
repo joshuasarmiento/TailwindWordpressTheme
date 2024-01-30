@@ -31,7 +31,7 @@
             <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
                 <div class="flex h-16 items-center justify-between">
                     <div class="md:flex md:items-center md:gap-12">
-                        <a class="block text-teal-600" href="/">
+                        <a class="block text-blue-600" href="/">
                             <span class="sr-only">Home</span>
                             <svg class="h-8" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -73,13 +73,13 @@
 
                     <div class="flex items-center gap-4">
                         <div class="sm:flex sm:gap-4">
-                            <a class="rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white shadow"
+                            <a class="rounded-md border-blue-600 bg-blue-600 px-5 py-2.5 text-sm font-medium text-white shadow"
                                 href="/">
                                 Login
                             </a>
 
                             <div class="hidden sm:flex">
-                                <a class="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600"
+                                <a class="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-blue-600"
                                     href="/">
                                     Register
                                 </a>
