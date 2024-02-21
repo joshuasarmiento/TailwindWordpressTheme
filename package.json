@@ -20,7 +20,7 @@
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/forms": "^0.5.7",
     "@tailwindcss/typography": "^0.5.10",
-    "@wordpress/scripts": "^19.2.2",
+    "@wordpress/scripts": "^27.2.0",
     "dir-archiver": "^1.1.1",
     "tailwindcss": "^3.4.1",
     "tailwindcss-animated": "^1.0.1"
