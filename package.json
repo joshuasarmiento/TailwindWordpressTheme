@@ -22,11 +22,11 @@
     "@tailwindcss/typography": "^0.5.10",
     "@wordpress/scripts": "^19.2.2",
     "dir-archiver": "^1.1.1",
-    "tailwindcss": "^3.4.1",
+    "tailwindcss": "^3.4.17",
     "tailwindcss-animated": "^1.0.1"
   },
   "scripts": {
-    "start": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "start": "node start.js",
     "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css"
   }
 }
